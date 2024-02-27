@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT GRID</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="menu"> 
+                <h1>MENU</h1>
+                <ul>
+                    <li><img width="50" height="50" src="https://img.icons8.com/ios/50/000000/monzo--v2.png" alt="monzo--v2"/></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/list.html">List</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Yusril_Ihza_Mahendra">Tutorial</a></li>
+                </ul> 
+            </div>
+            <div class="wrapper2">
+                <div class="header"> 
+                    <marquee>
+                        <h1>Sejarah bahasa pemrograman</h1>
+                    </marquee>
+                </div>
+                <div class="content">
+                    <h1> Main Content</h1>
+                    <div class="text">
+                        <p>Sejarah bahasa pemrograman terbentang dari dokumentasi komputer mekanis awal hingga alat modern untuk pengembangan perangkat lunak . Bahasa pemrograman awal sangat terspesialisasi, mengandalkan notasi matematika dan sintaksis yang tidak jelas . [1] Sepanjang abad ke-20, penelitian dalam teori kompiler mengarah pada penciptaan bahasa pemrograman tingkat tinggi , yang menggunakan sintaksis yang lebih mudah diakses untuk mengkomunikasikan instruksi.</p>
+                        <p></p>
+                        <p>Bahasa pemrograman tingkat tinggi pertama adalah Plankalkül , dibuat oleh Konrad Zuse antara tahun 1942 dan 1945. [2] Bahasa tingkat tinggi pertama yang memiliki kompiler terkait diciptakan oleh Corrado Böhm pada tahun 1951, untuk tesis PhD -nya . [3] Bahasa pertama yang tersedia secara komersial adalah FORTRAN (FORmula TRANslation), dikembangkan pada tahun 1956 (panduan pertama muncul pada tahun 1956, namun pertama kali dikembangkan pada tahun 1954) oleh tim yang dipimpin oleh John Backus di IBM .</p>
+                        <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/512px-LEGO_logo.svg.png" alt="Lego"> -->
+                        <!-- <img src="C:\Users\zer0-day\Downloads\LEGO.png" alt="Lego IMG"> -->
+                        <div class="popup" onclick="myFunction()">Sejarah Coding!
+                            <span class="popuptext" id="myPopup">
+                                <pre>
+&lt;?php
+if(isset($_POST[])){
+    $alas = $_POST['alas'];
+    $tinggi = $_POST['tinggi'];
+
+    $luas = $alas*$tinggi/2;
+    echo "Luas Segitiga = " .$luas
+}
+?&gt;
+                                </pre>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"> 
+            <h1> © 2011 Maftuh Romadon All Rights Reserved </h1>
+        </div>
+    </div>
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
